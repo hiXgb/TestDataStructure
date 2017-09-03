@@ -195,6 +195,11 @@
     return node;
 }
 
+- (BBSingleLinkedNode *)headNode
+{
+    return _headNode;
+}
+
 - (BBSingleLinkedNode *)lastNode
 {
     BBSingleLinkedNode *last = _headNode;

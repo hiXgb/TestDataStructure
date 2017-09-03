@@ -34,6 +34,7 @@
 - (void)removeNode:(BBSingleLinkedNode *)node;
 
 - (BBSingleLinkedNode *)nodeForKey:(NSString *)key;
+- (BBSingleLinkedNode *)headNode;
 - (BBSingleLinkedNode *)lastNode;
 
 - (NSInteger)length;
